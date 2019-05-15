@@ -1,0 +1,9 @@
+
+https://www.sep.com/sep-blog/2017/02/27/nginx-reverse-proxy-to-asp-net-core-separate-docker-containers/
+
+
+docker-compose build
+
+
+docker-compose up
+
