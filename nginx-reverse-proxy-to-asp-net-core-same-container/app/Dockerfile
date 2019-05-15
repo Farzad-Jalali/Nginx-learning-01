@@ -17,5 +17,8 @@ COPY nginx.conf /etc/nginx
  
 ENV ASPNETCORE_URLS http://+:5000
 EXPOSE 5000 80
- 
-CMD ["sh", "/app/startup.sh"]
+
+#RUN service nginx start
+#ENTRYPOINT ["dotnet", "app.dll"]
+
+CMD ["sh", "startup.sh"]
